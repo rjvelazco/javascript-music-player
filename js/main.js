@@ -21,7 +21,7 @@ let currentSong;
 let repeat = false;
 const audio = new Audio();
 
-fetch("../db/data.json")
+fetch("./db/data.json")
   .then((data) => data.json())
   .then((data) => {
     songs = data;
