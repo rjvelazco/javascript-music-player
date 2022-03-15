@@ -1,0 +1,57 @@
+[
+    {
+       "id":1,
+       "title":"Sign",
+       "artist":"FLOW",
+       "img":"src/img/sign-naruto.jpg",
+       "duration":103,
+       "source":"src/sign.mp3",
+       "comments":[
+          
+       ]
+    },
+    {
+       "id":2,
+       "title":"Angeles Fuimos",
+       "artist":"Adrián Barba",
+       "img":"src/img/angeles-fuimos.jpg",
+       "duration":228,
+       "source":"src/angeles-fuimos.mp3",
+       "comments":[
+          
+       ]
+    },
+    {
+       "id":3,
+       "title":"Barbie Girl",
+       "artist":"Aqua",
+       "img":"src/img/aqua-barbie.jpg",
+       "duration":200,
+       "source":"src/barbie-girl-official.mp3",
+       "comments":[
+          
+       ]
+    },
+    {
+       "id":4,
+       "title":"A Cruel Angel's Thesis",
+       "artist":"Yōko Takahashi",
+       "img":"src/img/a-cruel-angels-thesis.jpg",
+       "duration":91,
+       "source":"src/a-cruel-angels-thesis.mp3",
+       "comments":[
+          
+       ]
+    },
+    {
+       "id":5,
+       "title":"I Don't Trust Nobody",
+       "artist":"Shiloh Dynasty",
+       "img":"src/img/trust-nobody.jpg",
+       "duration":133,
+       "source":"src/trust-nobody-love-nobody.mp3",
+       "comments":[
+          
+       ]
+    }
+]
