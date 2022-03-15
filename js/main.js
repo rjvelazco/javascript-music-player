@@ -21,7 +21,7 @@ let currentSong;
 let repeat = false;
 const audio = new Audio();
 
-fetch("/db/data.js")
+fetch("../db/data.json")
   .then((data) => data.json())
   .then((data) => {
     songs = data;
@@ -130,7 +130,7 @@ const fillTrackList = (songs) => {
     html += `
       <div class="track-list-item" onclick="getSongData(${song.id})">
           <span class="px-2">${index + 1}</span>
-          <img src="${song.img}" class="img-fluid rounded mx-auto d-block"
+          <img src="./${song.img}" class="img-fluid rounded mx-auto d-block"
               alt="song.title" />
           <div class="info d-flex flex-column justify-content-between">
               <h4>${song.title}</h4>
@@ -302,7 +302,7 @@ const displayModal = (song) => {
             </div>
             <div class="card-details">
                 <div class="modal-cover m-auto mb-4">
-                    <img src="${
+                    <img src="./${
                       song.img
                     }" class="img-fluid rounded mx-auto d-block" />
                 </div>
